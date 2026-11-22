@@ -1,0 +1,134 @@
+1
+00:00:00,000 --> 00:00:05,458
+Waterbodies stretch across large areas, and tracking boundary changes by
+hand is slow.
+
+2
+00:00:05,667 --> 00:00:08,625
+Satellite imagery helps surface persistent water-extent change.
+
+3
+00:00:08,833 --> 00:00:12,583
+But a changing shoreline alone does not prove encroachment.
+
+4
+00:00:13,500 --> 00:00:21,000
+Change Sentinel screens multi-date satellite observations and supporting
+evidence, then records results as traceable cases for human review.
+
+5
+00:00:21,208 --> 00:00:24,958
+It is a decision-support tool, not a legal authority.
+
+6
+00:00:25,875 --> 00:00:29,625
+This example uses the verified Hussain Sagar study area.
+
+7
+00:00:29,833 --> 00:00:35,292
+In a catalog query recorded November fifth, 2026, 640 Sentinel-2 items
+were found.
+
+8
+00:00:35,500 --> 00:00:39,708
+After cloud filtering, 287 candidates were read successfully; none
+failed.
+
+9
+00:00:39,917 --> 00:00:44,500
+Accepted analysis observations span November ninth, 2022, to October
+fourteenth, 2026.
+
+10
+00:00:44,708 --> 00:00:49,292
+The latest usable observation was 22 days old at analysis time.
+
+11
+00:00:49,500 --> 00:00:53,708
+The query was live, but the imagery was not same-day.
+
+12
+00:00:54,625 --> 00:00:59,625
+The pipeline compares recent observations with baseline observations
+from matching calendar months.
+
+13
+00:00:59,833 --> 00:01:02,250
+This reduces recurring seasonal confounding.
+
+14
+00:01:02,458 --> 00:01:10,792
+The georeferenced maps show observed-water frequency on the same
+EPSG:32644, 10-meter grid; they are derived rasters, not raw-color
+satellite images.
+
+15
+00:01:11,708 --> 00:01:20,458
+Case E N C zero zero one two records 51.9 hectares of persistent water-
+extent loss candidate within a 209.29-hectare historical footprint.
+
+16
+00:01:20,667 --> 00:01:24,875
+Another 28.98 hectares were classified as seasonally unmatched and
+suppressed.
+
+17
+00:01:25,083 --> 00:01:28,417
+Boundary-area uncertainty is plus or minus 14.63 hectares.
+
+18
+00:01:28,625 --> 00:01:31,583
+These measurements describe observed change, not construction.
+
+19
+00:01:32,500 --> 00:01:34,917
+Evidence is mixed.
+
+20
+00:01:35,125 --> 00:01:40,125
+Sentinel-1 contradicts the candidate and still detects water in recent
+radar observations.
+
+21
+00:01:40,333 --> 00:01:46,583
+Dynamic World also contradicts it, reporting a mean recent water
+probability of zero point seven.
+
+22
+00:01:46,792 --> 00:01:51,000
+JRC supports historical-water context only; its record ends in 2020.
+
+23
+00:01:51,917 --> 00:01:55,250
+The case score is 50 out of 100.
+
+24
+00:01:55,458 --> 00:01:59,208
+It is a heuristic review-priority score, not a probability.
+
+25
+00:01:59,417 --> 00:02:03,167
+Current sources disagree, so the case remains potential change.
+
+26
+00:02:03,375 --> 00:02:05,792
+No source confirms illegal encroachment.
+
+27
+00:02:06,708 --> 00:02:12,542
+The stored case keeps observation dates, verified AOI provenance, source
+findings and geospatial exports.
+
+28
+00:02:12,750 --> 00:02:19,000
+Reviewers can inspect the GeoTIFF and GeoJSON, record decisions and
+request field or cadastral verification.
+
+29
+00:02:19,917 --> 00:02:25,375
+Change Sentinel helps move satellite screening into traceable
+investigation while keeping uncertainty visible.
+
+30
+00:02:25,583 --> 00:02:28,542
+From satellite observations to traceable waterbody investigations.
